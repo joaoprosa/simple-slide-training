@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(dota.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 4em;
+}
+.block__slide{
+    width: 90vw;
+    height: 90vh;
+    justify-content: center; 
+    align-items: center;   
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(17, 113, 0);
+    background-image: url(dota2.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+    border: solid 4px black;
+}
+img{
+    width: 90%;
+    height: 100%;
+}
+@media(max-width:768px){
+    img{
+        width: 90%;
+    }
+}
+@media(max-width:500px){
+    img{
+        width: 90%;
+        height: 80%;
+    }
+}
+#left , #right{
+    width: 5%;
+    height: 12vh;
+}
